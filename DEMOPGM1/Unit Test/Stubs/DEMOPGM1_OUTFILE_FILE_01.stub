@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="OLD" encoding="1047" id="Unit%20Test/Stubs/DEMOPGM1_OUTFILE_FILE_01.stub" keyLength="10" keyPosition="0" stubtype="VSAM KSDS (Organization: Index)" target="OUTFILE" token="80000">
+  <stub:description>Created: 20 Feb, 2020 12:21:02 PM</stub:description>
+  <stub:stubdata id="0" name="OUTFILE">
+    <stub:interface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F140404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="input0.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="input0.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="input0.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="input0.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="input0.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="input0.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="input0.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:input>
+    <stub:output listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F140404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="output0.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="output0.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="output0.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="output0.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="output0.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="output0.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="output0.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTOUT_REC.CUS_ID">
+        <checkconditions:expression>'1234567890' eq result.arg0.CUSTOUT_REC.CUS_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567890</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTOUT_REC.CUS_NAME">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTOUT_REC.CUS_DOB">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_DOB</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTOUT_REC.CUS_ADDRESS">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 1' eq result.arg0.CUSTOUT_REC.CUS_ADDRESS</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTOUT_REC.PROD_DESC">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.PROD_DESC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:key value="F1F2F3F4F5F6F7F8F9F0"/>
+    <stub:inputkey value="F1F2F3F4F5F6F7F8F9F0"/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="OUTFILE">
+    <stub:interface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F240404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="input1.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="input1.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="input1.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="input1.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="input1.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="input1.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="input1.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:input>
+    <stub:output listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F240404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="output1.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="output1.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="output1.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="output1.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="output1.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="output1.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="output1.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTOUT_REC.CUS_ID">
+        <checkconditions:expression>'1234567891' eq result.arg0.CUSTOUT_REC.CUS_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567891</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTOUT_REC.CUS_NAME">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTOUT_REC.CUS_DOB">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_DOB</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTOUT_REC.CUS_ADDRESS">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 2' eq result.arg0.CUSTOUT_REC.CUS_ADDRESS</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTOUT_REC.PROD_DESC">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.PROD_DESC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:key value="F1F2F3F4F5F6F7F8F9F1"/>
+    <stub:inputkey value="F1F2F3F4F5F6F7F8F9F1"/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="OUTFILE">
+    <stub:interface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F440404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="input2.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="input2.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="input2.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="input2.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="input2.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="input2.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="input2.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:input>
+    <stub:output listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F440404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="output2.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="output2.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="output2.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="output2.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="output2.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="output2.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="output2.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTOUT_REC.CUS_ID">
+        <checkconditions:expression>'1234567892' eq result.arg0.CUSTOUT_REC.CUS_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567892</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTOUT_REC.CUS_NAME">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTOUT_REC.CUS_DOB">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_DOB</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTOUT_REC.CUS_ADDRESS">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 4' eq result.arg0.CUSTOUT_REC.CUS_ADDRESS</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTOUT_REC.PROD_DESC">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.PROD_DESC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:key value="F1F2F3F4F5F6F7F8F9F2"/>
+    <stub:inputkey value="F1F2F3F4F5F6F7F8F9F2"/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="OUTFILE">
+    <stub:interface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F540404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="input3.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="input3.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="input3.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="input3.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="input3.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="input3.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="input3.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:input>
+    <stub:output listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F540404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="output3.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="output3.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="output3.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="output3.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="output3.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="output3.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="output3.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTOUT_REC.CUS_ID">
+        <checkconditions:expression>'1234567893' eq result.arg0.CUSTOUT_REC.CUS_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567893</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTOUT_REC.CUS_NAME">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTOUT_REC.CUS_DOB">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_DOB</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTOUT_REC.CUS_ADDRESS">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 5' eq result.arg0.CUSTOUT_REC.CUS_ADDRESS</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 5</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTOUT_REC.PROD_DESC">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.PROD_DESC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:key value="F1F2F3F4F5F6F7F8F9F3"/>
+    <stub:inputkey value="F1F2F3F4F5F6F7F8F9F3"/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="OUTFILE">
+    <stub:interface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_OUTFILE_CUSTOUT_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F4404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F640404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="input4.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="input4.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="input4.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="input4.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="input4.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="input4.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="input4.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:input>
+    <stub:output listructure="../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#Unit%20Test/Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC" id="arg0.CUSTOUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F4404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F640404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ID" id="output4.arg0.CUSTOUT_REC.CUS_ID" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ACC_NO" id="output4.arg0.CUSTOUT_REC.CUS_ACC_NO" offset="10"/>
+      <stub:data baseType="listructure:numberType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PRODUCT_TYPE" id="output4.arg0.CUSTOUT_REC.PRODUCT_TYPE" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_NAME" id="output4.arg0.CUSTOUT_REC.CUS_NAME" offset="30"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_DOB" id="output4.arg0.CUSTOUT_REC.CUS_DOB" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.CUS_ADDRESS" id="output4.arg0.CUSTOUT_REC.CUS_ADDRESS" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_OUTFILE_CUSTOUT-REC.listructure#CUSTOUT_REC.PROD_DESC" id="output4.arg0.CUSTOUT_REC.PROD_DESC" offset="110"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTOUT_REC.CUS_ID">
+        <checkconditions:expression>'1234567894' eq result.arg0.CUSTOUT_REC.CUS_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567894</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTOUT_REC.CUS_NAME">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTOUT_REC.CUS_DOB">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.CUS_DOB</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTOUT_REC.CUS_ADDRESS">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 6' eq result.arg0.CUSTOUT_REC.CUS_ADDRESS</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 6</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTOUT_REC.PROD_DESC">
+        <checkconditions:expression>'' eq result.arg0.CUSTOUT_REC.PROD_DESC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:key value="F1F2F3F4F5F6F7F8F9F4"/>
+    <stub:inputkey value="F1F2F3F4F5F6F7F8F9F4"/>
+  </stub:stubdata>
+</stub:stub>

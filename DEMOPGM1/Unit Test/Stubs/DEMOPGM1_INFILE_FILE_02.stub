@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/DEMOPGM1_INFILE_FILE_02.stub" stubtype="QSAM" target="INFILE" token="130000">
+  <stub:description>Created: 6 Mar, 2020 12:45:07 PM</stub:description>
+  <stub:stubdata id="0" name="INFILE">
+    <stub:inputinterface>../Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC" id="arg0.CUSTIN_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F0C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F14040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN" id="input0.arg0.CUSTIN_REC.CUS_ID_IN" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN" id="input0.arg0.CUSTIN_REC.CUS_ADDR_IN" offset="10"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="INFILE">
+    <stub:inputinterface>../Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC" id="arg0.CUSTIN_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F1C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F24040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN" id="input1.arg0.CUSTIN_REC.CUS_ID_IN" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN" id="input1.arg0.CUSTIN_REC.CUS_ADDR_IN" offset="10"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="INFILE">
+    <stub:inputinterface>../Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC" id="arg0.CUSTIN_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F2C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F44040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN" id="input2.arg0.CUSTIN_REC.CUS_ID_IN" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN" id="input2.arg0.CUSTIN_REC.CUS_ADDR_IN" offset="10"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="INFILE">
+    <stub:inputinterface>../Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC" id="arg0.CUSTIN_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F2F2F2F7F8F9F2C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F44040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN" id="input3.arg0.CUSTIN_REC.CUS_ID_IN" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN" id="input3.arg0.CUSTIN_REC.CUS_ADDR_IN" offset="10"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="INFILE">
+    <stub:inputinterface>../Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC" id="arg0.CUSTIN_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F3C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F54040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN" id="input4.arg0.CUSTIN_REC.CUS_ID_IN" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN" id="input4.arg0.CUSTIN_REC.CUS_ADDR_IN" offset="10"/>
+    </stub:input>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="INFILE">
+    <stub:inputinterface>../Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface#Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC" id="arg0.CUSTIN_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F4C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F64040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN" id="input5.arg0.CUSTIN_REC.CUS_ID_IN" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN" id="input5.arg0.CUSTIN_REC.CUS_ADDR_IN" offset="10"/>
+    </stub:input>
+  </stub:stubdata>
+</stub:stub>

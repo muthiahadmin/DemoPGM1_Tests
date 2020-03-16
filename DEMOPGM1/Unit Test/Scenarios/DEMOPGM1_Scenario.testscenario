@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/DEMOPGM1_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="DEMOPGM1" encoding="1047" entrypoint="DEMOPGM1" id="Unit%20Test/Scenarios/DEMOPGM1_Scenario.testscenario%23DEMOPGM1Case1" target="DEMOPGM1">
+      <testcase:description></testcase:description>
+      <testcase:ddio>PA05X05.TEST.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1581886306000</testcase:targetCaptureCompileTime>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/DEMOPGM1_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM1_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/DEMOPGM1_OUTFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM1_OUTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/DEMOPGM1_INFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM1_INFILE_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="DEMOPGM1" encoding="1047" entrypoint="DEMOPGM1" id="Unit%20Test/Scenarios/DEMOPGM1_Scenario.testscenario%23DEMOPGM1Case2" target="DEMOPGM1">
+      <testcase:description></testcase:description>
+      <testcase:ddio>PA05X05.TEST.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1581886306000</testcase:targetCaptureCompileTime>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/DEMOPGM1_RPTFILE_FILE_02.stub#Unit%20Test/Stubs/DEMOPGM1_RPTFILE_FILE_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/DEMOPGM1_INFILE_FILE_02.stub#Unit%20Test/Stubs/DEMOPGM1_INFILE_FILE_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/DEMOPGM1_OUTFILE_FILE_02.stub#Unit%20Test/Stubs/DEMOPGM1_OUTFILE_FILE_02.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

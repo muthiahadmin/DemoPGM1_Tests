@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20 Sep, 2019 10:39:27 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+  <listructure:struct id="CUSTREP_REC" name="CUSTREP_REC">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">95</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">95</properties:property>
+    </properties:properties>
+    <listructure:string id="CUSTREP_REC.CUS_ID_REP" length="10" name="CUS_ID_REP">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CUSTREP_REC.FILLER1_REP" initial="   " length="3" name="FILLER1_REP">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(03)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(03)</properties:property>
+        <properties:property name="storageLength" type="number">3</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CUSTREP_REC.OLD_ADDR_REP" length="40" name="OLD_ADDR_REP">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(40)</properties:property>
+        <properties:property name="displayLength" type="number">40</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(40)</properties:property>
+        <properties:property name="storageLength" type="number">40</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CUSTREP_REC.FILLER2_REP" initial="  " length="2" name="FILLER2_REP">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(02)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(02)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CUSTREP_REC.NEW_ADDR_REP" length="40" name="NEW_ADDR_REP">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(40)</properties:property>
+        <properties:property name="displayLength" type="number">40</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(40)</properties:property>
+        <properties:property name="storageLength" type="number">40</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

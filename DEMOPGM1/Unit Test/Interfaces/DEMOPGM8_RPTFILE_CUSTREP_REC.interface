@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20 Sep, 2019 10:39:27 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

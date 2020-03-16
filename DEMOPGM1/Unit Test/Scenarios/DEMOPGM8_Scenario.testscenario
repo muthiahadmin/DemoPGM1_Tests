@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:testcase="http://www.compuware.com/model/xml/testcase"
+	xmlns:testscenario="http://www.compuware.com/model/xml/testscenario"
+	alias="" id="Unit%20Test/Scenarios/DEMOPGM8_Scenario.testscenario">
+	<testscenario:description></testscenario:description>
+	<testscenario:testcases>
+		<testscenario:testcase alias="" csect="DEMOPGM8"
+			encoding="1047" entrypoint="DEMOPGM8"
+			id="Unit%20Test/Scenarios/DEMOPGM8_Scenario.testscenario%23DEMOPGM8Case1"
+			target="DEMOPGM8">
+			<testcase:description></testcase:description>
+			<testcase:ddio>PA05X05.TEST.DDIO321</testcase:ddio>
+			<testcase:ddiotype>DDIO</testcase:ddiotype>
+			<testcase:targetCaptureCompileTime>1568752640000</testcase:targetCaptureCompileTime>
+			<testcase:stubs>
+				<testcase:stub>../Stubs/DEMOPGM8_INFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM8_INFILE_FILE_01.stub</testcase:stub>
+				<testcase:stub>../Stubs/DEMOPGM8_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM8_RPTFILE_FILE_01.stub</testcase:stub>
+				<testcase:stub>../Stubs/DEMOPGM8_OUTFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM8_OUTFILE_FILE_01.stub</testcase:stub>
+			</testcase:stubs>
+		</testscenario:testcase>
+		<testscenario:testcase alias="" csect="DEMOPGM8"
+			encoding="1047" entrypoint="DEMOPGM8"
+			id="Unit%20Test/Scenarios/DEMOPGM8_Scenario.testscenario%23DEMOPGM8Case2"
+			target="DEMOPGM8">
+			<testcase:description></testcase:description>
+			<testcase:ddio>PA05X05.TEST.DDIO321</testcase:ddio>
+			<testcase:ddiotype>DDIO</testcase:ddiotype>
+			<testcase:targetCaptureCompileTime>1568752640000</testcase:targetCaptureCompileTime>
+			<testcase:stubs>
+				<testcase:stub>../Stubs/DEMOPGM8_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM8_RPTFILE_FILE_02.stub</testcase:stub>
+				<testcase:stub>../Stubs/DEMOPGM8_INFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM8_INFILE_FILE_02.stub</testcase:stub>
+				<testcase:stub>../Stubs/DEMOPGM8_OUTFILE_FILE_01.stub#Unit%20Test/Stubs/DEMOPGM8_OUTFILE_FILE_02.stub</testcase:stub>
+			</testcase:stubs>
+		</testscenario:testcase>
+	</testscenario:testcases>
+</testscenario:testscenario>

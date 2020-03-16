@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="OLD" encoding="1047" id="Unit%20Test/Stubs/DEMOPGM8_RPTFILE_FILE_02.stub" stubtype="QSAM" target="RPTFILE" token="40000">
+  <stub:description>Created: 20 Sep, 2019 10:39:36 AM</stub:description>
+  <stub:stubdata id="0" name="RPTFILE">
+    <stub:interface>../Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface#Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC" id="arg0.CUSTREP_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940C9C44040C3E4E2E3D6D4C5D960D6D3C460C1C4C4D9C5E2E240404040404040404040404040404040404040404040C3E4E2E3D6D4C5D960D5C5E660C1C4C4D9C5E2E24040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP" id="output0.arg0.CUSTREP_REC.CUS_ID_REP" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP" id="output0.arg0.CUSTREP_REC.FILLER1_REP" offset="10"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP" id="output0.arg0.CUSTREP_REC.OLD_ADDR_REP" offset="13"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP" id="output0.arg0.CUSTREP_REC.FILLER2_REP" offset="53"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP" id="output0.arg0.CUSTREP_REC.NEW_ADDR_REP" offset="55"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTREP_REC.CUS_ID_REP">
+        <checkconditions:expression>'CUSTOMER I' eq result.arg0.CUSTREP_REC.CUS_ID_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER I</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTREP_REC.FILLER1_REP">
+        <checkconditions:expression>'D' eq result.arg0.CUSTREP_REC.FILLER1_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">D</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTREP_REC.OLD_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER-OLD-ADDRESS' eq result.arg0.CUSTREP_REC.OLD_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER-OLD-ADDRESS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTREP_REC.FILLER2_REP">
+        <checkconditions:expression>'' eq result.arg0.CUSTREP_REC.FILLER2_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.CUSTREP_REC.NEW_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER-NEW-ADDRESS' eq result.arg0.CUSTREP_REC.NEW_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER-NEW-ADDRESS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="RPTFILE">
+    <stub:interface>../Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface#Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC" id="arg0.CUSTREP_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F0000000C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F140404040404040404040404040404040404040400000C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F14040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP" id="output1.arg0.CUSTREP_REC.CUS_ID_REP" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP" id="output1.arg0.CUSTREP_REC.FILLER1_REP" offset="10"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP" id="output1.arg0.CUSTREP_REC.OLD_ADDR_REP" offset="13"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP" id="output1.arg0.CUSTREP_REC.FILLER2_REP" offset="53"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP" id="output1.arg0.CUSTREP_REC.NEW_ADDR_REP" offset="55"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTREP_REC.CUS_ID_REP">
+        <checkconditions:expression>'1234567890' eq result.arg0.CUSTREP_REC.CUS_ID_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567890</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTREP_REC.FILLER1_REP">
+        <checkconditions:expression>x'000000' eq result.arg0.CUSTREP_REC.FILLER1_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTREP_REC.OLD_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 1' eq result.arg0.CUSTREP_REC.OLD_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTREP_REC.FILLER2_REP">
+        <checkconditions:expression>x'0000' eq result.arg0.CUSTREP_REC.FILLER2_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'0000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.CUSTREP_REC.NEW_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 1' eq result.arg0.CUSTREP_REC.NEW_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="RPTFILE">
+    <stub:interface>../Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface#Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC" id="arg0.CUSTREP_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F1000000C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F240404040404040404040404040404040404040400000C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F24040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP" id="output2.arg0.CUSTREP_REC.CUS_ID_REP" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP" id="output2.arg0.CUSTREP_REC.FILLER1_REP" offset="10"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP" id="output2.arg0.CUSTREP_REC.OLD_ADDR_REP" offset="13"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP" id="output2.arg0.CUSTREP_REC.FILLER2_REP" offset="53"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP" id="output2.arg0.CUSTREP_REC.NEW_ADDR_REP" offset="55"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTREP_REC.CUS_ID_REP">
+        <checkconditions:expression>'1234567891' eq result.arg0.CUSTREP_REC.CUS_ID_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567891</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTREP_REC.FILLER1_REP">
+        <checkconditions:expression>x'000000' eq result.arg0.CUSTREP_REC.FILLER1_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTREP_REC.OLD_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 2' eq result.arg0.CUSTREP_REC.OLD_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTREP_REC.FILLER2_REP">
+        <checkconditions:expression>x'0000' eq result.arg0.CUSTREP_REC.FILLER2_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'0000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.CUSTREP_REC.NEW_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 2' eq result.arg0.CUSTREP_REC.NEW_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="RPTFILE">
+    <stub:interface>../Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface#Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC" id="arg0.CUSTREP_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F3F4F5F6F7F8F9F2000000C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F340404040404040404040404040404040404040400000C3E4E2E3D6D4C5D940C1C4C4D9C5E2E2406040F34040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP" id="output3.arg0.CUSTREP_REC.CUS_ID_REP" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP" id="output3.arg0.CUSTREP_REC.FILLER1_REP" offset="10"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP" id="output3.arg0.CUSTREP_REC.OLD_ADDR_REP" offset="13"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP" id="output3.arg0.CUSTREP_REC.FILLER2_REP" offset="53"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP" id="output3.arg0.CUSTREP_REC.NEW_ADDR_REP" offset="55"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTREP_REC.CUS_ID_REP">
+        <checkconditions:expression>'1234567892' eq result.arg0.CUSTREP_REC.CUS_ID_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">1234567892</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTREP_REC.FILLER1_REP">
+        <checkconditions:expression>x'000000' eq result.arg0.CUSTREP_REC.FILLER1_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTREP_REC.OLD_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 3' eq result.arg0.CUSTREP_REC.OLD_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 3</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTREP_REC.FILLER2_REP">
+        <checkconditions:expression>x'0000' eq result.arg0.CUSTREP_REC.FILLER2_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'0000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.CUSTREP_REC.NEW_ADDR_REP">
+        <checkconditions:expression>'CUSTOMER ADDRESS - 3' eq result.arg0.CUSTREP_REC.NEW_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER ADDRESS - 3</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="RPTFILE">
+    <stub:interface>../Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface#Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC" id="arg0.CUSTREP_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP" id="output4.arg0.CUSTREP_REC.CUS_ID_REP" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP" id="output4.arg0.CUSTREP_REC.FILLER1_REP" offset="10"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP" id="output4.arg0.CUSTREP_REC.OLD_ADDR_REP" offset="13"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP" id="output4.arg0.CUSTREP_REC.FILLER2_REP" offset="53"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP" id="output4.arg0.CUSTREP_REC.NEW_ADDR_REP" offset="55"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTREP_REC.CUS_ID_REP">
+        <checkconditions:expression>x'00000000000000000000' eq result.arg0.CUSTREP_REC.CUS_ID_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00000000000000000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTREP_REC.FILLER1_REP">
+        <checkconditions:expression>x'000000' eq result.arg0.CUSTREP_REC.FILLER1_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTREP_REC.OLD_ADDR_REP">
+        <checkconditions:expression>x'00000000000000000000000000000000000000000000000000000000000000000000000000000000' eq result.arg0.CUSTREP_REC.OLD_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00000000000000000000000000000000000000000000000000000000000000000000000000000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTREP_REC.FILLER2_REP">
+        <checkconditions:expression>x'0000' eq result.arg0.CUSTREP_REC.FILLER2_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'0000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.CUSTREP_REC.NEW_ADDR_REP">
+        <checkconditions:expression>x'00000000000000000000000000000000000000000000000000000000000000000000000000000000' eq result.arg0.CUSTREP_REC.NEW_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00000000000000000000000000000000000000000000000000000000000000000000000000000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="RPTFILE">
+    <stub:interface>../Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface#Unit%20Test/Interfaces/DEMOPGM8_RPTFILE_CUSTREP_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#Unit%20Test/Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC" id="arg0.CUSTREP_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.CUS_ID_REP" id="output5.arg0.CUSTREP_REC.CUS_ID_REP" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER1_REP" id="output5.arg0.CUSTREP_REC.FILLER1_REP" offset="10"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.OLD_ADDR_REP" id="output5.arg0.CUSTREP_REC.OLD_ADDR_REP" offset="13"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.FILLER2_REP" id="output5.arg0.CUSTREP_REC.FILLER2_REP" offset="53"/>
+      <stub:data baseType="listructure:stringType ../Structures/DEMOPGM8_RPTFILE_CUSTREP-REC.listructure#CUSTREP_REC.NEW_ADDR_REP" id="output5.arg0.CUSTREP_REC.NEW_ADDR_REP" offset="55"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.CUSTREP_REC.CUS_ID_REP">
+        <checkconditions:expression>x'00000000000000000000' eq result.arg0.CUSTREP_REC.CUS_ID_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00000000000000000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.CUSTREP_REC.FILLER1_REP">
+        <checkconditions:expression>x'000000' eq result.arg0.CUSTREP_REC.FILLER1_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.CUSTREP_REC.OLD_ADDR_REP">
+        <checkconditions:expression>x'00000000000000000000000000000000000000000000000000000000000000000000000000000000' eq result.arg0.CUSTREP_REC.OLD_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00000000000000000000000000000000000000000000000000000000000000000000000000000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.CUSTREP_REC.FILLER2_REP">
+        <checkconditions:expression>x'0000' eq result.arg0.CUSTREP_REC.FILLER2_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'0000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.CUSTREP_REC.NEW_ADDR_REP">
+        <checkconditions:expression>x'00000000000000000000000000000000000000000000000000000000000000000000000000000000' eq result.arg0.CUSTREP_REC.NEW_ADDR_REP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00000000000000000000000000000000000000000000000000000000000000000000000000000000'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+</stub:stub>

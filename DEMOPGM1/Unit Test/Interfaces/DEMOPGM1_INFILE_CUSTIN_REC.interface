@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 20 Feb, 2020 12:21:02 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/DEMOPGM1_INFILE_CUSTIN_REC.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#Unit%20Test/Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ID_IN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/DEMOPGM1_INFILE_CUSTIN-REC.listructure#CUSTIN_REC.CUS_ADDR_IN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
